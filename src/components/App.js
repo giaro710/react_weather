@@ -2,6 +2,7 @@ import React from "react";
 
 import Searchbar from "./Searchbar";
 import Header from "./Header";
+import Board from "./Board";
 
 import "../App.css";
 
@@ -14,6 +15,7 @@ const App = () => {
       />
 
       <Searchbar />
+      <Board />
     </div>
   );
 };
