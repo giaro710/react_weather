@@ -8,13 +8,14 @@ import "../App.css";
 
 const App = () => {
   return (
-    <div className="main-container">
+    <div className="main-container-light">
       <Header
         title={"The Weather app"}
         description={"Get the current weather"}
       />
 
       <Searchbar />
+
       <Board />
     </div>
   );

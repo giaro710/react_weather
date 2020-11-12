@@ -1,10 +1,20 @@
-.main-container {
+.main-container-light {
   height: 100vh;
-  background-image: linear-gradient(rgb(211, 211, 211), rgba(0, 0, 0, 0.055)),
+  background-image: linear-gradient(
+      rgb(231, 231, 231),
+      rgba(197, 197, 197, 0.055)
+    ),
     url("./img/clouds.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
 }
 
-/* linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.055)) */
+.main-container-dark {
+  height: 100vh;
+  background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.055)),
+    url("./img/clouds.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}

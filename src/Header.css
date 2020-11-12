@@ -10,6 +10,7 @@
 .header__title {
   font-family: "Poiret One", cursive;
   font-size: 9rem;
+  text-shadow: 0 0.5rem 30rem rgba(0, 0, 0, 0.281);
 }
 
 .header__description {
