@@ -1,0 +1,24 @@
+.data {
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin: 13rem auto;
+}
+
+.data__header {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 4rem;
+  letter-spacing: 1rem;
+  margin-bottom: 3rem;
+}
+
+.data__info {
+  font-family: "Raleway", sans-serif;
+  font-size: 5rem;
+  margin-top: 3rem;
+  font-weight: 300;
+}

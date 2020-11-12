@@ -4,8 +4,13 @@
 } */
 
 .main-container {
-  height: 98vh;
-  background-image: url("./img/dominik-schroder-FIKD9t5_5zQ-unsplash.jpg");
+  height: 100vh;
+  background-image: linear-gradient(rgb(211, 211, 211), rgba(0, 0, 0, 0.055)),
+    url("./img/cloud_1.jpg");
+  background-size: cover;
   background-position: top;
-  position: relative;
 }
+
+/* background-image: url("./img/dominik-schroder-FIKD9t5_5zQ-unsplash.jpg");
+background-position: top;
+position: relative; */

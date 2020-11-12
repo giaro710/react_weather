@@ -5,7 +5,7 @@ import "../Board.css";
 class Board extends React.Component {
   render() {
     if (!this.props.weather.name) {
-      return <div>Select a city</div>;
+      return <div></div>;
     } else {
       return (
         <div className="data">
@@ -15,7 +15,7 @@ class Board extends React.Component {
             src={`http://openweathermap.org/img/wn/${this.props.weather.weather[0].icon}@2x.png`}
             alt="icon"
           />
-          <p>{this.props.weather.main.temp}</p>
+          <h2 className="data__info">{`${this.props.weather.main.temp} °C`}</h2>
         </div>
       );
     }
