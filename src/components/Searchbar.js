@@ -5,16 +5,16 @@ import { fetchWeather } from "../actions";
 import "../Searchbar.css";
 
 class Searchbar extends React.Component {
-  componentDidMount() {
-    const provaFetching = async () => {
-      fetch(
-        `http://api.openweathermap.org/data/2.5/weather?q=Riccione&units=metric&appid=3b5bc54d87d29484a1bfb25bcdf93b31`
-      )
-        .then((response) => response.json())
-        .then((data) => console.log(data));
-    };
-    provaFetching();
-  }
+  // componentDidMount() {
+  //   const provaFetching = async () => {
+  //     fetch(
+  //       `http://api.openweathermap.org/data/2.5/weather?q=Riccione&units=metric&appid=${process.env.REACT_APP_API_KEY}`
+  //     )
+  //       .then((response) => response.json())
+  //       .then((data) => console.log(data));
+  //   };
+  //   provaFetching();
+  // }
 
   handleSubmit = (event) => {
     event.preventDefault();
