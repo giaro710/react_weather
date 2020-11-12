@@ -1,4 +1,11 @@
-.main-container {
+/* .main-container {
   width: 800px;
   margin: 0 auto;
+} */
+
+.main-container {
+  height: 98vh;
+  background-image: url("./img/dominik-schroder-FIKD9t5_5zQ-unsplash.jpg");
+  background-position: top;
+  position: relative;
 }

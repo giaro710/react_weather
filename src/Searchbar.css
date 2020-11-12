@@ -1,4 +1,78 @@
 .searchbar {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.searchbar__input {
+  padding: 1.6rem 0 1.6rem 1.6rem;
+  background: transparent;
+  border: 0.2rem solid #fff;
+  border-radius: 4rem 4rem 4rem 4rem;
+  width: 37rem;
+  color: #fff;
+  font-size: 2rem;
+  margin-right: 4rem;
+  outline: none;
+  box-shadow: 0 0.2rem 1rem rgb(236, 236, 236);
+  opacity: 1;
+  font-family: "Raleway", sans-serif;
+}
+
+.searchbar__input::placeholder {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-size: 2rem;
+  padding-top: 0.2rem;
+}
+
+.searchbar__btn {
+  height: 5.6rem;
+  width: 5.6rem;
+  color: #fff;
+  background: transparent;
+  border: 0.2rem solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 0.2rem 1rem rgb(236, 236, 236);
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.searchbar__icon {
+  font-size: 1.8rem;
+}
+
+.searchbar__icon:hover,
+.searchbar__icon:active {
+  font-size: 2rem;
+  text-shadow: 0 0.1rem 1rem rgb(219, 219, 219);
+}
+
+/* .searchbar__icon:active {
+  font-size: 2rem;
+} */
+
+.searchbar__btn:hover,
+.searchbar__btn:active {
+  color: #ec6e4c;
+  background: #fff;
+  box-shadow: 0 0.1rem 1rem rgb(219, 219, 219);
+  opacity: 1;
+}
+
+/* .searchbar__btn:active {
+  color: #ec6e4c;
+  background: #fff;
+  box-shadow: 0 0.1rem 1rem rgb(219, 219, 219);
+  opacity: 1;
+} */
+
+/* .searchbar {
   margin-top: 60px;
 }
 
@@ -36,4 +110,4 @@
 .searchbar__btn:active {
   transform: translateY(-1px);
   box-shadow: 0 1px 5px rgb(133, 133, 133);
-}
+} */

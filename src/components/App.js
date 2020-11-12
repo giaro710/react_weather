@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className="main-container">
       <Header
-        title={"The weather app"}
+        title={"The Weather app"}
         description={"Get the current weather"}
       />
 
