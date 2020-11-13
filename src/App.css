@@ -1,7 +1,7 @@
 .main-container-light {
   height: 100vh;
   background-image: linear-gradient(
-      rgb(231, 231, 231),
+      rgba(201, 251, 251, 0.472),
       rgba(197, 197, 197, 0.055)
     ),
     url("./img/clouds.jpg");
@@ -12,7 +12,7 @@
 
 .main-container-dark {
   height: 100vh;
-  background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.055)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.055)),
     url("./img/clouds.jpg");
   background-repeat: no-repeat;
   background-size: cover;
