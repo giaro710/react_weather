@@ -17,7 +17,6 @@
   font-size: 2rem;
   margin-right: 4rem;
   outline: none;
-  /* box-shadow: 0 0.2rem 1rem rgb(236, 236, 236); */
   opacity: 1;
   font-family: "Raleway", sans-serif;
 }
@@ -39,7 +38,7 @@
   border-radius: 50%;
   cursor: pointer;
   outline: none;
-  box-shadow: 0 0.2rem 1rem rgb(236, 236, 236);
+  /* box-shadow: 0 0.2rem 1rem rgb(236, 236, 236); */
   opacity: 1;
   transition: 0.3s;
 }
@@ -47,16 +46,6 @@
 .searchbar__icon {
   font-size: 2.2rem;
 }
-
-/* .searchbar__icon:hover,
-.searchbar__icon:active {
-  font-size: 2rem;
-  text-shadow: 0 0.1rem 1rem rgb(219, 219, 219);
-} */
-
-/* .searchbar__icon:active {
-  font-size: 2rem;
-} */
 
 .searchbar__btn:hover {
   color: #48484a;
