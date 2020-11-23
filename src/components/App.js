@@ -9,7 +9,7 @@ import "../App.css";
 const App = () => {
   const setClass = () => {
     const hour = new Date().getHours();
-    if (hour > 7 && hour < 20) {
+    if (hour > 7 && hour < 18) {
       return "main-container-light";
     }
 

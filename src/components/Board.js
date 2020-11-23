@@ -28,5 +28,3 @@ const mapStateToProps = (state) => {
 };
 
 export default connect(mapStateToProps)(Board);
-
-const temperature = (238, 55 - 32) / 1.8;
